@@ -1,0 +1,140 @@
+[debug] [2017-06-26T12:06:00.978Z] ----------------------------------------------------------------------
+[debug] [2017-06-26T12:06:00.981Z] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-06-26T12:06:00.982Z] CLI Version:  3.9.1
+[debug] [2017-06-26T12:06:00.982Z] Platform:     darwin
+[debug] [2017-06-26T12:06:00.982Z] Node Version: v6.11.0
+[debug] [2017-06-26T12:06:00.982Z] Time:         Mon Jun 26 2017 08:06:00 GMT-0400 (EDT)
+[debug] [2017-06-26T12:06:00.983Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-26T12:06:00.994Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-26T12:06:00.994Z] > authorizing via signed-in user
+[debug] [2017-06-26T12:06:00.996Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-26T12:06:00.997Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/P5MUuh5tAjvpSEVYqp2N662d4gOWZ1PsrV6G8ql-6N0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jun 26 2017 08:06:00 GMT-0400 (EDT)
+[debug] [2017-06-26T12:06:01.569Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T12:06:01.580Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendly-chat-87022  
+ Mon Jun 26 2017 08:06:01 GMT-0400 (EDT)
+[debug] [2017-06-26T12:06:03.354Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T12:06:03.355Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendly-chat-87022/tokens  
+ Mon Jun 26 2017 08:06:03 GMT-0400 (EDT)
+[debug] [2017-06-26T12:06:03.736Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jwatson/friendlychat/web-start'...
+[info] 
+[debug] [2017-06-26T12:06:03.741Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendly-chat-87022  
+ Mon Jun 26 2017 08:06:03 GMT-0400 (EDT)
+[debug] [2017-06-26T12:06:05.109Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T12:06:05.110Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/867211817020/clients/_:getWebAppConfig  
+ Mon Jun 26 2017 08:06:05 GMT-0400 (EDT)
+[debug] [2017-06-26T12:06:08.531Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-26T12:12:20.169Z] Error: connect ETIMEDOUT 216.58.216.227:443
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-06-26T12:12:20.171Z] Error: socket hang up
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-06-26T12:12:21.734Z] ----------------------------------------------------------------------
+[debug] [2017-06-26T12:12:21.737Z] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-06-26T12:12:21.737Z] CLI Version:  3.9.1
+[debug] [2017-06-26T12:12:21.737Z] Platform:     darwin
+[debug] [2017-06-26T12:12:21.737Z] Node Version: v6.11.0
+[debug] [2017-06-26T12:12:21.738Z] Time:         Mon Jun 26 2017 08:12:21 GMT-0400 (EDT)
+[debug] [2017-06-26T12:12:21.738Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-26T12:12:21.751Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-26T12:12:21.751Z] > authorizing via signed-in user
+[debug] [2017-06-26T12:12:21.754Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendly-chat-87022  
+ Mon Jun 26 2017 08:12:21 GMT-0400 (EDT)
+[debug] [2017-06-26T12:12:22.818Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T12:12:22.819Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendly-chat-87022/tokens  
+ Mon Jun 26 2017 08:12:22 GMT-0400 (EDT)
+[debug] [2017-06-26T12:12:24.302Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jwatson/friendlychat/web-start'...
+[info] 
+[debug] [2017-06-26T12:12:24.306Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendly-chat-87022  
+ Mon Jun 26 2017 08:12:24 GMT-0400 (EDT)
+[debug] [2017-06-26T12:12:24.938Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T12:12:24.938Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/867211817020/clients/_:getWebAppConfig  
+ Mon Jun 26 2017 08:12:24 GMT-0400 (EDT)
+[debug] [2017-06-26T12:12:25.570Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-26T12:14:37.938Z] Error: connect ETIMEDOUT 216.58.192.163:443
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-06-26T12:14:37.942Z] Error: socket hang up
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-06-26T12:15:02.875Z] ----------------------------------------------------------------------
+[debug] [2017-06-26T12:15:02.878Z] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-06-26T12:15:02.878Z] CLI Version:  3.9.1
+[debug] [2017-06-26T12:15:02.878Z] Platform:     darwin
+[debug] [2017-06-26T12:15:02.878Z] Node Version: v6.11.0
+[debug] [2017-06-26T12:15:02.879Z] Time:         Mon Jun 26 2017 08:15:02 GMT-0400 (EDT)
+[debug] [2017-06-26T12:15:02.879Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-26T12:15:02.892Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-26T12:15:02.892Z] > authorizing via signed-in user
+[debug] [2017-06-26T12:15:02.894Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendly-chat-87022  
+ Mon Jun 26 2017 08:15:02 GMT-0400 (EDT)
+[debug] [2017-06-26T12:15:03.914Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T12:15:03.915Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendly-chat-87022/tokens  
+ Mon Jun 26 2017 08:15:03 GMT-0400 (EDT)
+[debug] [2017-06-26T12:15:04.330Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jwatson/friendlychat/web-start'...
+[info] 
+[debug] [2017-06-26T12:15:04.334Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendly-chat-87022  
+ Mon Jun 26 2017 08:15:04 GMT-0400 (EDT)
+[debug] [2017-06-26T12:15:04.767Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T12:15:04.768Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/867211817020/clients/_:getWebAppConfig  
+ Mon Jun 26 2017 08:15:04 GMT-0400 (EDT)
+[debug] [2017-06-26T12:15:05.344Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2017-06-26T13:55:59.012Z] ----------------------------------------------------------------------
+[debug] [2017-06-26T13:55:59.014Z] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2017-06-26T13:55:59.015Z] CLI Version:  3.9.1
+[debug] [2017-06-26T13:55:59.015Z] Platform:     darwin
+[debug] [2017-06-26T13:55:59.015Z] Node Version: v6.11.0
+[debug] [2017-06-26T13:55:59.015Z] Time:         Mon Jun 26 2017 09:55:59 GMT-0400 (EDT)
+[debug] [2017-06-26T13:55:59.015Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-26T13:55:59.029Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-06-26T13:55:59.029Z] > authorizing via signed-in user
+[debug] [2017-06-26T13:55:59.031Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-06-26T13:55:59.031Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/P5MUuh5tAjvpSEVYqp2N662d4gOWZ1PsrV6G8ql-6N0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jun 26 2017 09:55:59 GMT-0400 (EDT)
+[debug] [2017-06-26T13:55:59.218Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T13:55:59.228Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/friendly-chat-87022  
+ Mon Jun 26 2017 09:55:59 GMT-0400 (EDT)
+[debug] [2017-06-26T13:55:59.714Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T13:55:59.715Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/friendly-chat-87022/tokens  
+ Mon Jun 26 2017 09:55:59 GMT-0400 (EDT)
+[debug] [2017-06-26T13:56:00.112Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/jwatson/friendlychat/web-start'...
+[info] 
+[debug] [2017-06-26T13:56:00.117Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/friendly-chat-87022  
+ Mon Jun 26 2017 09:56:00 GMT-0400 (EDT)
+[debug] [2017-06-26T13:56:00.370Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-26T13:56:00.370Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/867211817020/clients/_:getWebAppConfig  
+ Mon Jun 26 2017 09:56:00 GMT-0400 (EDT)
+[debug] [2017-06-26T13:56:00.784Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] ✔  hosting: Local server: http://localhost:5000
+
